@@ -4,7 +4,7 @@
 # -*- coding: utf-8 -*-
 
 def Bigdata():
-    sent = u"""녹번동 길 막히나요     룸카페    맛집 추천   에 미녀와야수 초커 파나요?    입니다 
+    sentence = u"""녹번동 길 막히나요     룸카페    맛집 추천   에 미녀와야수 초커 파나요?    입니다 
 음식점겸술집 오픈준비중  새벽시간 n버스이용   -천호  서울시 은평구 대조동      부평 VS         
 성환  소요 시간  신사      가는 3호선    인천공항 2터미널 버스 없나요?    수노래방 가격     
 일산 cgv 지하철타고   치아교정 조언 부탁 3호선 독립문      출근   치아교정 하려고 합니다!   
@@ -18,7 +18,7 @@ def Bigdata():
 
 
     d = dict()
-    for c in sent.split():
+    for c in sentence.split():
         if c not in d:
             d[c]=1
         else:
