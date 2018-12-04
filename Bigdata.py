@@ -26,7 +26,7 @@ def Bigdata():
 
     d1 = dict()
     for key, value in d.iteritems():
-        if value>1:
+        if value>2:
             d1[key]=value
             print key, value
             
