@@ -1,3 +1,5 @@
+#코드출처: 빅데이터분석실습 임좌상 교수님 강의자료 http://nbviewer.jupyter.org/format/slides/github/smu405/s/blob/master/ds1_intro.ipynb#/8/5
+
 
 # -*- coding: utf-8 -*-
 
